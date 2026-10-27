@@ -1,0 +1,121 @@
+{
+  "model_name": "XGBoost Regressor",
+  "version": "v2.0-production",
+  "target_variable": "congestion_pct (Traffic Congestion Percentage 0-100%)",
+  "trained_at_utc": "2026-10-27T10:02:24.549711+00:00",
+  "total_dataset_rows": 5400,
+  "train_rows": 4320,
+  "test_rows": 1080,
+  "split_strategy": "Chronological (First 80% train, held-out 20% test)",
+  "feature_columns": [
+    "road_type_enc",
+    "hour_of_day",
+    "day_of_week",
+    "is_weekend",
+    "is_rush_hour",
+    "hour_sin",
+    "hour_cos",
+    "speed_limit_kmh",
+    "capacity_vph",
+    "lanes",
+    "rainfall_mm",
+    "visibility_m",
+    "lag_congestion_1h",
+    "lag_congestion_24h"
+  ],
+  "evaluation_metrics": {
+    "xgboost": {
+      "mae": 2.89,
+      "rmse": 3.67,
+      "r2_score": 0.949
+    },
+    "random_forest": {
+      "mae": 3.11,
+      "rmse": 3.93,
+      "r2_score": 0.942
+    },
+    "historical_average": {
+      "mae": 4.86,
+      "rmse": 6.0,
+      "r2_score": 0.865
+    },
+    "persistence_baseline": {
+      "mae": 7.24,
+      "rmse": 9.42,
+      "r2_score": 0.666
+    }
+  },
+  "shap_global_importance": [
+    {
+      "feature": "lag_congestion_24h",
+      "importance": 6.0008,
+      "rank": 1
+    },
+    {
+      "feature": "lag_congestion_1h",
+      "importance": 4.3422,
+      "rank": 2
+    },
+    {
+      "feature": "is_rush_hour",
+      "importance": 3.5327,
+      "rank": 3
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 0.9072,
+      "rank": 4
+    },
+    {
+      "feature": "road_type_enc",
+      "importance": 0.7494,
+      "rank": 5
+    },
+    {
+      "feature": "hour_cos",
+      "importance": 0.6794,
+      "rank": 6
+    },
+    {
+      "feature": "hour_of_day",
+      "importance": 0.6547,
+      "rank": 7
+    },
+    {
+      "feature": "hour_sin",
+      "importance": 0.6468,
+      "rank": 8
+    },
+    {
+      "feature": "rainfall_mm",
+      "importance": 0.5565,
+      "rank": 9
+    },
+    {
+      "feature": "capacity_vph",
+      "importance": 0.4328,
+      "rank": 10
+    },
+    {
+      "feature": "speed_limit_kmh",
+      "importance": 0.367,
+      "rank": 11
+    },
+    {
+      "feature": "visibility_m",
+      "importance": 0.2109,
+      "rank": 12
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 0.177,
+      "rank": 13
+    },
+    {
+      "feature": "lanes",
+      "importance": 0.0357,
+      "rank": 14
+    }
+  ],
+  "causal_disclaimer": "Feature importance values reflect mathematical statistical association and model weight in the decision tree splits; they do not establish causal relationships."
+}

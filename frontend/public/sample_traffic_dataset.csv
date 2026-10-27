@@ -1,0 +1,41 @@
+street_name,road_type,start_lat,start_lon,end_lat,end_lon,speed_limit_kmh,daily_volume_vph
+Market Street Financial Express,Arterial,37.7885,-122.4005,37.7735,-122.4215,50.0,3200
+US-101 Bayshore Corridor,Expressway,37.7610,-122.4040,37.7720,-122.4055,90.0,6500
+Van Ness Rapid Transit Arterial,Arterial,37.7750,-122.4190,37.7950,-122.4230,50.0,2800
+The Embarcadero Waterfront Promenade,Arterial,37.7950,-122.3930,37.8080,-122.4080,45.0,2400
+Mission Street Tech Way,Arterial,37.7600,-122.4190,37.7850,-122.4050,40.0,2100
+Geary Boulevard Central Highway,Arterial,37.7810,-122.4300,37.7800,-122.4700,60.0,4100
+Lombard Street Gateway,Local,37.8020,-122.4260,37.8010,-122.4240,30.0,1200
+Fell Street Golden Gate Connector,Arterial,37.7730,-122.4280,37.7720,-122.4500,50.0,2900
+Columbus Avenue North Beach,Arterial,37.7980,-122.4060,37.8060,-122.4150,40.0,1800
+Broadway Tunnel Arterial,Arterial,37.7960,-122.4100,37.7970,-122.4220,50.0,3100
+3rd Street Central Waterfront,Arterial,37.7700,-122.3890,37.7500,-122.3880,50.0,2600
+King Street Ballpark Approach,Arterial,37.7780,-122.3920,37.7720,-122.3980,45.0,3400
+19th Avenue Highway 1 South,Expressway,37.7600,-122.4750,37.7200,-122.4760,65.0,5200
+Sloat Boulevard Coastal Connector,Arterial,37.7340,-122.4850,37.7330,-122.5050,55.0,2300
+Lincoln Way Sunset Artery,Arterial,37.7650,-122.4600,37.7640,-122.5100,50.0,3000
+Divisadero Street Mid-Town,Arterial,37.7700,-122.4380,37.7900,-122.4410,40.0,1900
+Portola Drive Twin Peaks Pass,Expressway,37.7420,-122.4500,37.7350,-122.4650,60.0,3300
+Cesar Chavez Industrial Highway,Arterial,37.7480,-122.4050,37.7490,-122.3850,55.0,3800
+Oak Street Freeway Feeder,Arterial,37.7730,-122.4480,37.7740,-122.4200,50.0,3500
+Howard Street SoMa Tech Artery,Arterial,37.7880,-122.3950,37.7720,-122.4150,40.0,2200
+Folsom Street Urban Transit Link,Arterial,37.7900,-122.3920,37.7700,-122.4130,40.0,2400
+Bush Street Downtown Express,Arterial,37.7910,-122.4020,37.7880,-122.4350,45.0,2700
+Pine Street One-Way Arterial,Arterial,37.7890,-122.4350,37.7920,-122.4020,45.0,2800
+California Street Cable Corridor,Arterial,37.7930,-122.3980,37.7850,-122.4600,45.0,2500
+Sacramento Street Commercial Line,Arterial,37.7940,-122.3980,37.7880,-122.4480,40.0,1950
+Franklin Street Northbound Way,Arterial,37.7730,-122.4210,37.8000,-122.4250,50.0,3100
+Gough Street Southbound Transit,Arterial,37.8000,-122.4260,37.7720,-122.4220,50.0,3200
+Turk Street Civic Link,Arterial,37.7830,-122.4100,37.7800,-122.4500,40.0,1600
+Golden Gate Avenue Civic Way,Arterial,37.7810,-122.4140,37.7780,-122.4520,40.0,1750
+Bay Street Marina Boulevard,Arterial,37.8050,-122.4100,37.8040,-122.4400,45.0,2100
+Marina Boulevard Waterfront Drive,Arterial,37.8060,-122.4350,37.8050,-122.4500,50.0,2500
+Presidio Parkway Golden Gate Access,Expressway,37.8000,-122.4550,37.8100,-122.4750,75.0,5800
+Veterans Boulevard South Pass,Expressway,37.8050,-122.4700,37.7850,-122.4750,70.0,4900
+Arguelo Boulevard Inner Richmond,Arterial,37.7850,-122.4600,37.7650,-122.4580,40.0,1500
+Stanyan Street Park Edge,Arterial,37.7650,-122.4530,37.7750,-122.4540,40.0,1650
+Potrero Avenue Hospital Artery,Arterial,37.7680,-122.4070,37.7500,-122.4060,45.0,2800
+Bayshore Boulevard South Link,Expressway,37.7450,-122.4040,37.7150,-122.4030,70.0,4600
+San Bruno Avenue Corridor,Arterial,37.7350,-122.4050,37.7150,-122.4020,45.0,1900
+Geneva Avenue Crosstown Line,Arterial,37.7170,-122.4500,37.7150,-122.4000,50.0,2700
+Ocean Avenue City College Artery,Arterial,37.7240,-122.4400,37.7330,-122.4750,45.0,2200
